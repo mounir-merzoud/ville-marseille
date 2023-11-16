@@ -1,0 +1,176 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 70px;
+} */
+/* *section:hover {
+   /* transform: scale(1.05);
+    transition: 0.5s;*/
+   /* text-align: center;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;*/
+
+
+
+    header{
+        background-image: url(../image-marseille/photos-de-couverture.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        BORDER: 2px solid;
+        border-radius: 10px;
+        width: 120px;
+        height: 120px;
+        top: 40px;
+        left: 70px;
+    }
+    header .titre1{
+        color: rgb(0, 0, 12);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .menu-nav li {
+        list-style: none;
+        background: grey;
+        border: 1.5px solid #fff;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 300px;
+    }
+    .menu-nav li a {
+        color: #fff;
+        font-weight: bold;
+    }
+header .icons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 30px;
+}
+header .icons img{
+        
+        height: 50px;
+        width: 50px;
+}
+
+  
+h1,h2{
+    color: #333;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+p {
+    font-family: "Times New Roman", 'Times New Roman', Times, serif;
+}
+
+p {
+    font-weight: bold;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.801);
+}
+h1,h2 {
+    color: black;
+    text-shadow: 2px 2px 4px black;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat , sans serif ";
+    padding: 0.3rem;
+}
+
+
+
+
+h1 {
+    color: #0D78DC;
+    text-align: center;
+    font-family: "agbalumo";
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.landou {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+img {
+    object-fit: cover;
+   
+}
+.parc b {
+    
+    display: block;
+    justify-content: center;
+   gap: 10px
+}
+.parc b {
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center; 
+   text-align: center;
+   margin-top: 3%;
+}
+.parc {
+    column-count: 5; 
+    column-gap: 20px;
+    justify-content: space-between;
+    column-width: 200px;
+    column-gap: 20px;
+ }
+img {
+    object-fit: cover;
+    width: 220px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+.parc img {
+    transition: transform 200ms;
+}
+.parc img:hover {
+    transform: scale(1.1, 1.1);
+}
+#video-background {
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%;  
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    z-index: -100;
+}
+footer p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+}
