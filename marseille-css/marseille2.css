@@ -1,0 +1,163 @@
+header{
+    background-image: url(../image-marseille/photos-de-couverture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    BORDER: 2px solid;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    top: 40px;
+    left: 70px;
+}
+header .titre1{
+    color: rgb(0, 0, 12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.menu-nav li {
+    list-style: none;
+    background: grey;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 300px;
+}
+.menu-nav li a {
+    color: #fff;
+    font-weight: bold;
+}
+header .icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+header .icons img{
+    
+    height: 50px;
+    width: 50px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 70px;
+}
+section:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+h1,h2{
+    color: #333;
+}
+P,li {
+    color: #0a0606;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+p {
+    font-family: "Times New Roman", 'Times New Roman', Times, serif;
+}
+
+p {
+    font-weight: bold;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.801);
+}
+h1,h2 {
+    color: black;
+    text-shadow: 2px 2px 4px black;
+}
+h1{
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat , sans serif ";
+    padding: 0.3rem;
+}
+
+header {
+    background-color: #7B7B7B;
+
+
+}
+
+body {
+    background-color: #F1DBA9;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.tri_img {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+img {
+    object-fit: cover;
+}
+section {
+        text-align: center;
+        align-items: center;
+        flex: 2 2 500px;
+}
+.epoque-contemporaine{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.tri_img b {
+    display: block;
+}
+img {
+    object-fit: cover;
+}
+.tri_img b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+.tri_img {
+    
+    justify-content: space-between;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #7B7B7B;
+    height: 50px;
+    color: #fff;
+    padding: 15px;
+}
