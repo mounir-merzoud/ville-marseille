@@ -1,0 +1,215 @@
+@media (min-width: 500px) and (max-width: 1223px) {
+    
+    body {
+      font-size: 16px;
+    }
+    header{
+        height: 50%;
+    }
+    .presentation{
+        display: grid;
+        grid-template-columns: repeat(1.5, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+        padding: 10px;
+        margin-top: 30px;
+        
+       
+    }.skils11 img,
+    .skils0 img,
+    .skils1 img,
+    .skils2 img,
+    .skils3 img,
+    .skils4 img,
+    .skils5 img,
+    .skils6 img,
+    .skils7 img,
+    .skils8 img,
+    .skils9 img,
+    .skils10 img {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 100px;
+        width: 100%;
+    }
+    table{
+        background: rgb(232, 222, 210);
+        height: 200px;
+        width: 100%;
+    }
+    header h1{
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 20px;
+        align-items: center;
+
+    }
+    
+ 
+
+
+    
+}
+header{
+    background-image: url(../image-marseille/photos\ de\ couverture\ la\ page\ des\ musées.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    BORDER: 2px solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    top: 40px;
+    left: 70px;
+}
+header h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.menu-nav li {
+    list-style: none;
+    background: grey;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 300px;
+}
+.menu-nav li a {
+    color: #fff;
+    font-weight: bold;
+}
+header .icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.presentation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    
+   
+}
+.skils11:hover img,
+.skils0:hover img,
+.skils1:hover img,
+.skils2:hover img,
+.skils3:hover img,
+.skils4:hover img,
+.skils5:hover img,
+.skils6:hover img,
+.skils7:hover img,
+.skils8:hover img,
+.skils9:hover img,
+.skils10:hover img {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px blue;
+    transition: transform 0.3s; /* Correction de la propriété transition */
+    transform: scale(1.05);
+    
+}
+.skils11 img,
+.skils0 img,
+.skils1 img,
+.skils2 img,
+.skils3 img,
+.skils4 img,
+.skils5 img,
+.skils6 img,
+.skils7 img,
+.skils8 img,
+.skils9 img,
+.skils10 img {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+}
+table{
+    background: rgb(232, 222, 210);
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #2105f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bas-de-page img {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+.bas-de-page li{
+    margin-left: -725px;
+    text-decoration: none;
+    list-style: none;
+    display: block; 
+    margin-bottom: 10px;
+    
+}
+footer li a {
+    color: #fff;
+    font-weight: bold;
+}
+footer .icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+}

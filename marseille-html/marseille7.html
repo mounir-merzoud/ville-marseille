@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../marseille-css/marseille7.css">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+    <header>
+        <img src="../image-marseille/logo-marseille.jpg" alt="" class="logo">
+        <h1>Formulaire de Contact</h1>
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="../marseille1.html">Actualités </a></li>
+                <li><a href="#">Histoire</a></li>
+                <li><a href="#">Randonnées</a></li>
+                <li><a href="../marseille-html/marseille6.html">Culture </a></li>
+                <li><a href="#">Parcs</a></li>
+                <li><a href="marseille7.html">Contact </a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <img src="../image-marseille/icons8-facebook-48.png" alt="">
+            <img src="../image-marseille/icons8-instagram-48.png" alt="">
+            <img src="../image-marseille/icons8-twitter-64.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="container"> 
+
+            <form action="#" method="post"> 
+
+                <label for="gender">Civilité :</label>
+                <select id="gender" name="gender">
+                    <option value="indefini">A renseigner</option>
+                    <option value="male">Monsieur</option>
+                    <option value="female">Madame</option>
+                </select>
+
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="prenom">Prenom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+
+                <label for="maritalStatus">Situation Familiale :</label>
+                <select id="maritalStatus" name="maritalStatus">
+                    <option value="indefini">A renseigner</option>
+                    <option value="single">Célibataire</option>
+                    <option value="married">Marié(e)</option>
+                    <option value="divorced">Divorcé(e)</option>
+                    <option value="widowed">Veuf/Veuve</option>
+                </select>
+
+                <label for="occupation">Profession :</label>
+                <input type="text" id="occupation" name="occupation">
+
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="Telephone">N° de Telephone :</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="N° de la voie">N° de la voie :</label>
+                <input type="text" id="voie" name="N° de la voie" required>
+
+                <label for="etage">Etage Escalier Apparetement :</label>
+                <input type="text" id="etage" name="etage" required>
+
+                <label for="Batiment">Immeuble Batiment Residence :</label>
+                <input type="text" id="bat" name="bat" required>
+
+                <label for="ldv">Libellé de la voie :</label>
+                <input type="text" id="ldv" name="ldv" required>
+
+                <label for="btp">Boite postal :</label>
+                <input type="text" id="btp" name="btp" required>
+
+                <label for="cp">Code postal :</label>
+                <input type="text" id="cp" name="cp" required>
+
+                <label for="ville">Ville :</label>
+                <input type="text" id="ville" name="ville" required>
+
+                <label for="objet du message">Objet du message :</label>
+                <input type="text" id="objet" name="objet">
+
+                <label for="message">Message (max. 300 caractères) :</label>
+                <textarea id="message" name="message" rows="10" maxlength="300"></textarea>
+
+                <label for="attachment">Fichier joint :</label>
+                <input type="file" id="attachment" name="attachment">
+                <p>Les fichiers doivent peser moins de 2 Mo. <br>
+                    Extensions autorisées : gif jpg jpeg png pdf doc docx odt.</p><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </main>
+    <footer class="bas-de-page">
+        <img src="../image-marseille/logo-marseille.jpg" alt="">
+        <div>
+            <ul>
+                <li><a href="../marseille1.html">Actualités </a></li>
+                <li><a href="#">Histoire</a></li>
+                <li><a href="#">Randonnées</a></li>
+                <li><a href="../marseille-html/marseille6.html">Culture </a></li>
+                <li><a href="#">Parcs</a></li>
+                <li><a href="marseille7.html">Contact </a></li>
+            </ul>
+        </div>
+        
+    </footer>
+</body>
+</html>

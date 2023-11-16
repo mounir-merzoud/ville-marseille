@@ -1,0 +1,104 @@
+header{
+    background-image: url(../image-marseille/photos\ de\ couverture\ la\ page\ des\ musées.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    BORDER: 2px solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    top: 40px;
+    left: 70px;
+}
+header h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.menu-nav li {
+    list-style: none;
+    background: grey;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 300px;
+}
+.menu-nav li a {
+    color: #fff;
+    font-weight: bold;
+}
+header .icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+main {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #7fb5b5; /* Couleur de la plage */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    min-width: 400px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-size: small;
+}
+footer{
+    background: #2105f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bas-de-page img {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+.bas-de-page li{
+    margin-left: -725px;
+    text-decoration: none;
+    list-style: none;
+    display: block; 
+    margin-bottom: 10px;
+    
+}
+footer li a {
+    color: #fff;
+    font-weight: bold;
+}
+
