@@ -161,3 +161,51 @@ footer {
     color: #fff;
     padding: 15px;
 }
+@media screen and (max-width: 1499px) {
+    body{
+        display: block;
+    }
+    section{ 
+        
+       width: 100%;
+    } 
+    h1 h2{
+        background: #88c1d0;
+    height: 80px;
+    width: 80px;
+    list-style: none;
+    }
+    article{
+        font-size: 0.9sem;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 1388px) {
+    html{
+        width: 10%;
+        padding: 0px;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 776px) {
+    .tri_img .icons .logo{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+    img{
+        max-width: 100%;
+        display: block;
+        height: auto;
+    }
+    
+}
+
+    
+
